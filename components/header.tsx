@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 import { motion } from "framer-motion"
-import { ArrowDown, Github, Linkedin, Mail, Twitter } from "lucide-react"
+import { ArrowDown, Github, Instagram, Linkedin, Mail, Twitter } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 
@@ -65,10 +65,19 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="flex flex-wrap justify-center gap-4 mt-8"
           >
-            <Button size="lg" className="rounded-full">
+            <Button size="lg" className="rounded-full" onClick={() => {
+              document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
+            }}>
               View Projects
             </Button>
-            <Button size="lg" variant="outline" className="rounded-full">
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="rounded-full"
+              onClick={() => {
+                document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               Contact Me
             </Button>
           </motion.div>
@@ -79,19 +88,19 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="flex items-center gap-4 mt-8"
           >
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="https://github.com/Shripad03" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Github className="w-6 h-6" />
               <span className="sr-only">GitHub</span>
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="https://www.linkedin.com/in/shreepad-avhad/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Linkedin className="w-6 h-6" />
               <span className="sr-only">LinkedIn</span>
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-              <Twitter className="w-6 h-6" />
-              <span className="sr-only">Twitter</span>
+            <a href="https://www.instagram.com/that_marathi_guy/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+              <Instagram className="w-6 h-6" />
+              <span className="sr-only">Instagram</span>
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="mailto:shripad.avhad@gmail.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Mail className="w-6 h-6" />
               <span className="sr-only">Email</span>
             </a>

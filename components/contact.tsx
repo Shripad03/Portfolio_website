@@ -131,7 +131,7 @@ export default function Contact() {
             <div className="pt-6">
               <h3 className="text-xl font-semibold mb-4">Follow Me</h3>
               <div className="flex gap-4">
-                <a href="#" className="bg-background border rounded-full p-3 hover:border-primary transition-colors">
+                <a href="https://github.com/Shripad03" target="_blank" rel="noopener noreferrer" className="bg-background border rounded-full p-3 hover:border-primary transition-colors">
                   <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path
                       fillRule="evenodd"
@@ -140,11 +140,11 @@ export default function Contact() {
                     />
                   </svg>
                 </a>
-                <a href="#" className="bg-background border rounded-full p-3 hover:border-primary transition-colors">
+                <a href="https://www.linkedin.com/in/shreepad-avhad/" target="_blank" rel="noopener noreferrer" className="bg-background border rounded-full p-3 hover:border-primary transition-colors">
                   <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path
                       fillRule="evenodd"
-                      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
+                      d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"
                       clipRule="evenodd"
                     />
                   </svg>
@@ -154,11 +154,11 @@ export default function Contact() {
                     <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
                   </svg>
                 </a>
-                <a href="#" className="bg-background border rounded-full p-3 hover:border-primary transition-colors">
+                <a href="https://www.youtube.com/@that_marathi_guy" target="_blank" rel="noopener noreferrer" className="bg-background border rounded-full p-3 hover:border-primary transition-colors">
                   <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path
                       fillRule="evenodd"
-                      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm-1.41 7.08c.84-.58 1.87-.93 2.98-.93 1.11 0 2.14.35 2.98.93a4.98 4.98 0 011.62 1.88c.38.77.59 1.64.59 2.56 0 1.49-.58 2.83-1.53 3.82a5.88 5.88 0 01-4.32 1.84c-1.67 0-3.16-.68-4.24-1.79-.63-.65-1.11-1.43-1.41-2.3a6.1 6.1 0 01-.34-2.02c0-.92.21-1.79.59-2.56.38-.77.9-1.39 1.62-1.88zm-.35 8.9l-.07-.07c.57.61 1.35.99 2.22.99.87 0 1.65-.38 2.22-.99l-.07.07c.58.59 1.35.95 2.22.95.87 0 1.65-.36 2.22-.95l-.07.07c.58.59 1.35.95 2.22.95.87 0 1.65-.36 2.22-.95l-.07.07c.57.61 1.35.99 2.22.99.87 0 1.65-.38 2.22-.99l-.07.07c.58.59 1.35.95 2.22.95.87 0 1.65-.36 2.22-.95"
+                      d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
                       clipRule="evenodd"
                     />
                   </svg>
@@ -166,9 +166,11 @@ export default function Contact() {
               </div>
             </div>
           </div>
-
           <div>
-            <form action={sendEmail} onSubmit={handleSubmit} className="space-y-6">
+            <form action={async (formData) => {
+              const result = await sendEmail(formData);
+              return result.success ? undefined : result;
+            }} onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 gap-6">
                 <div>
                   <Input name="name" placeholder="Your Name" value={formData.name} onChange={handleChange} required />

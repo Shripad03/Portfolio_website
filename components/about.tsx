@@ -27,7 +27,7 @@ export default function About() {
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-primary/20 to-primary/0 animate-rotate" />
               <div className="absolute inset-[6px] rounded-xl overflow-hidden bg-background">
                 <Image
-                  src="/placeholder.svg?height=600&width=600"
+                  src="/img1.jpeg"
                   alt="Shreepad Avhad"
                   width={600}
                   height={600}

@@ -14,10 +14,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-background">
-        <main>
-          {children}
-        </main>
+      <body
+        className="min-h-screen bg-background"
+        data-new-gr-c-s-check-loaded="14.1229.0"
+        data-gr-ext-installed=""
+      >
+        {children}
       </body>
     </html>
   )
