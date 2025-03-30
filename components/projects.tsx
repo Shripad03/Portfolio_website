@@ -21,13 +21,13 @@ const projects = [
   },
   {
     id: 2,
-    title: "Dashboard UI",
-    description: "An admin dashboard with data visualization, user management, and analytics features.",
-    image: "/placeholder.svg?height=600&width=800",
+    title: "WineConnect",
+    description: "A web application that helps wine buyers and sellers find the best wine to import and export.",
+    image: "/wineconnect.png",
     tags: ["React", "TypeScript", "Chart.js", "Tailwind CSS"],
     category: "web",
-    github: "#",
-    demo: "#",
+    github: "https://github.com/Shripad03/wineconnect-pro",
+    demo: "https://wineconnect-5waezzex9-shreepad-avhads-projects.vercel.app/"
   },
   {
     id: 3,
