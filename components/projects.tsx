@@ -11,13 +11,13 @@ import { Github, ExternalLink } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "E-commerce Platform",
-    description: "A full-featured e-commerce platform with product listings, cart functionality, and checkout process.",
-    image: "/placeholder.svg?height=600&width=800",
+    title: "AI Powered Credit Card Rewards Optimizer",
+    description: "A web application that helps users optimize their credit card rewards by analyzing their spending and recommending the best credit card.",
+    image: "/cc-reward-banner.png",
     tags: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
     category: "web",
-    github: "#",
-    demo: "#",
+    github: "https://github.com/Shripad03/CC-Reward-Optimizer",
+    demo: "https://cc-rewardz-app.vercel.app/",
   },
   {
     id: 2,

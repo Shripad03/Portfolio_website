@@ -1,5 +1,7 @@
 # Portfolio_website
-This is my portfolio website created using next.js and node.js, framer motion
+This is my portfolio website created using next.js and node.js, framer motion.
+
+https://shreepad-avhad.vercel.app/
 
 
 # Tech Stack
@@ -26,3 +28,7 @@ This is my portfolio website created using next.js and node.js, framer motion
 
 
 # How to deploy the project
+- Build Command: next build
+- Development Command: next dev --port $PORT
+- Install Command: `yarn install`, `pnpm install`, `npm install`, or `bun install`
+- Output Directory: Next.js default

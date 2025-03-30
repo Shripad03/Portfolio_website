@@ -41,17 +41,18 @@ export default function About() {
             <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">About Me</div>
 
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-              Crafting digital experiences with passion and precision
+            Crafting Scalable & Performant Web Experiences..
             </h2>
 
             <p className="text-muted-foreground">
-              I'm a Senior Frontend Developer with over 10 years of experience building modern web applications. I
-              specialize in Angular, React, TypeScript, and Javascript, creating performant and accessible user interfaces.
+              I'm a Front-End Engineering Lead with over 10 years of experience building high-performance, scalable web applications. 
+              I specialize in Angular, JavaScript, TypeScript, and React, architecting modern, efficient, and accessible user interfaces.  
             </p>
 
             <p className="text-muted-foreground">
-              My approach combines technical expertise with a keen eye for design, ensuring that the applications I
-              build are not only functional but also visually appealing and intuitive to use.
+              My approach blends technical excellence with a deep understanding of system design, ensuring that the applications I build are fast, intuitive, and seamless. Beyond coding, 
+              I thrive on mentoring engineers, optimizing front-end architectures, and driving engineering best practices.  
+              I’m always exploring new technologies, business opportunities, and innovative solutions to push the boundaries of web development.
             </p>
 
             <div className="grid grid-cols-2 gap-4 pt-4">
@@ -64,11 +65,11 @@ export default function About() {
                 <div className="text-sm text-muted-foreground">Projects Completed</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-primary">20+</div>
-                <div className="text-sm text-muted-foreground">Happy Clients</div>
+                <div className="text-3xl font-bold text-primary">12+</div>
+                <div className="text-sm text-muted-foreground">Enterprise Clients Projects</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-primary">10+</div>
+                <div className="text-3xl font-bold text-primary">8+</div>
                 <div className="text-sm text-muted-foreground">Open Source Contributions</div>
               </div>
             </div>

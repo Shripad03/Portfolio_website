@@ -8,43 +8,38 @@ import { useEffect, useRef, useState } from "react"
 const experiences = [
   {
     id: 1,
-    role: "Senior Frontend Developer",
-    company: "Tech Innovations Inc.",
-    location: "San Francisco, CA",
-    period: "2021 - Present",
+    role: "Engineering Manager",
+    company: "Netcore Cloud",
+    location: "Mumbai, Maharashtra",
+    period: "2022 - Present",
     description: [
-      "Led the frontend development of the company's flagship product, resulting in a 40% increase in user engagement.",
-      "Architected and implemented a component library used across multiple projects, improving development efficiency by 30%.",
-      "Mentored junior developers and conducted code reviews to ensure high code quality and best practices.",
-      "Collaborated with design and product teams to create intuitive and accessible user interfaces.",
+      "Martech Product company that provides email marketing, SMS marketing, and marketing automation solutions.",
+      "Responsible for leading the frontend development team and overseeing the development of the company's flagship product."
     ],
-    technologies: ["React", "TypeScript", "Next.js", "GraphQL", "Tailwind CSS"],
+    technologies: ["Angular", "TypeScript", "RxJS", "ReactJS", "Scrum", "Agile", "JIRA", "Confluence", "GitHub", "Kubernetes", "AWS"],
   },
   {
     id: 2,
-    role: "Frontend Developer",
-    company: "Digital Solutions Ltd.",
-    location: "New York, NY",
-    period: "2018 - 2021",
+    role: "Senior Frontend Developer",
+    company: "Xoriant Solutions",
+    location: "Pune, Maharashtra",
+    period: "2020 - 2022",
     description: [
-      "Developed and maintained multiple client-facing web applications using React and Redux.",
-      "Implemented responsive designs and ensured cross-browser compatibility.",
-      "Integrated RESTful APIs and optimized application performance.",
-      "Participated in agile development processes, including daily stand-ups and sprint planning.",
+      "Woked on inhouse product called 'XorPay' which is a cloud based product for managing customer interactions.",
+      "Responsible for developing the frontend of the product using Angular and RxJS.",
+      "Also worked on largest banking client HSBC and City Bank.",
     ],
-    technologies: ["React", "JavaScript", "Redux", "SASS", "REST API"],
+    technologies: ["Angular", "TypeScript", "RxJS", "Agile", "JIRA", "AWS"]
   },
   {
     id: 3,
-    role: "Web Developer",
-    company: "Creative Agency",
-    location: "Boston, MA",
+    role: "Senior Software Engineer",
+    company: "Zensar Technologies",
+    location: "Pune, Maharashtra",
     period: "2016 - 2018",
     description: [
-      "Built interactive websites for various clients across different industries.",
-      "Collaborated with designers to implement pixel-perfect UI designs.",
-      "Optimized website performance and improved SEO rankings.",
-      "Maintained and updated existing client websites.",
+      "Built interactive websites for various   clients across different industries.",
+      "Worked on various projects like e-commerce, banking, insurance, etc."
     ],
     technologies: ["JavaScript", "HTML", "CSS", "jQuery", "WordPress"],
   },
@@ -57,7 +52,7 @@ export default function Experience() {
   })
 
   const [itemInViewStates, setItemInViewStates] = useState(experiences.map(() => false))
-  const itemRefs = useRef(experiences.map(() => null))
+  const itemRefs = useRef<(HTMLDivElement | null)[]>(experiences.map(() => null))
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -75,10 +70,11 @@ export default function Experience() {
       },
       {
         threshold: 0.1,
+        rootMargin: "0px 0px -100px 0px"
       },
     )
 
-    itemRefs.current.forEach((ref, index) => {
+    itemRefs.current.forEach((ref) => {
       if (ref) {
         observer.observe(ref)
       }
@@ -87,7 +83,7 @@ export default function Experience() {
     return () => {
       observer.disconnect()
     }
-  }, [itemRefs])
+  }, [])
 
   return (
     <section id="experience" className="py-20 bg-muted/30" ref={sectionRef}>
@@ -110,10 +106,12 @@ export default function Experience() {
             return (
               <motion.div
                 key={exp.id}
-                ref={(el) => (itemRefs.current[index] = el)}
+                ref={el => {
+                  if (el) itemRefs.current[index] = el
+                }}
                 initial={{ opacity: 0, y: 20 }}
-                animate={sectionInView && itemInViewStates[index] ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
+                animate={sectionInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+                transition={{ duration: 0.5, delay: index * 0.2 }}
                 className={`relative flex flex-col md:flex-row gap-8 mb-12 ${
                   index % 2 === 0 ? "md:flex-row-reverse" : ""
                 }`}

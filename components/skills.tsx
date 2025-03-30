@@ -4,22 +4,21 @@ import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"
 
 const skills = [
-  { name: "React", level: 95 },
-  { name: "TypeScript", level: 90 },
-  { name: "Next.js", level: 85 },
-  { name: "JavaScript", level: 95 },
-  { name: "HTML/CSS", level: 90 },
+  { name: "Angular/ TypeScript", level: 90 },
+  { name: "React/ JavaScript", level: 85 },
+  { name: "Next.js", level: 75 },
   { name: "Tailwind CSS", level: 85 },
-  { name: "Redux", level: 80 },
-  { name: "GraphQL", level: 75 },
+  { name: "Redux/Rxjs/NgRx", level: 80 },
+  { name: "GraphQL/Apollo/REST API", level: 75 },
   { name: "Node.js", level: 70 },
-  { name: "Testing", level: 80 },
-  { name: "UI/UX", level: 85 },
-  { name: "Performance Optimization", level: 80 },
+  { name: "Frontend System Design", level: 70 },
+  { name: "Decision Making & Problem-Solving", level: 80 },
+  { name: "Tech Strategy & Roadmap Planning", level: 85 },
+  { name: "Micro-Frontend Architecture", level: 85 },
 ]
 
 const technologies = [
-  "React",
+  "Angular",
   "Next.js",
   "TypeScript",
   "JavaScript",
@@ -39,9 +38,6 @@ const technologies = [
   "CI/CD",
   "Webpack",
   "Vite",
-  "Storybook",
-  "Figma",
-  "Adobe XD",
   "Responsive Design",
   "Accessibility",
   "Performance Optimization",

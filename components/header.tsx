@@ -21,6 +21,13 @@ export default function Hero() {
   return (
     <section className="relative h-screen flex flex-col justify-center items-center overflow-hidden">
       <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: "url('/scuba.jpg')", // You'll need to add this image to your public folder
+          filter: "brightness(0.8)" // Darkens the image to maintain text readability
+        }}
+      />
+      <div
         className="absolute inset-0 bg-grid-white/[0.02] bg-grid-pattern"
         style={{
           backgroundSize: "30px 30px",
@@ -36,7 +43,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="flex items-center justify-center rounded-full bg-primary/10 px-4 py-1 text-sm text-primary"
+            className="flex items-center justify-center rounded-full bg-black/40 px-4 py-1 text-sm text-white"
           >
             <span>Senior Frontend Developer</span>
           </motion.div>
@@ -45,16 +52,16 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter"
+            className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter text-white"
           >
-            <span className="text-primary">Shreepad</span> Avhad
+            <span className="text-black">Shreepad</span> Avhad
           </motion.h1>
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="max-w-[700px] text-muted-foreground md:text-xl"
+            className="max-w-[700px] text-black md:text-xl font-medium"
           >
             I build exceptional and accessible digital experiences for the web.
           </motion.p>
@@ -65,7 +72,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="flex flex-wrap justify-center gap-4 mt-8"
           >
-            <Button size="lg" className="rounded-full" onClick={() => {
+            <Button size="lg" className="rounded-full bg-cyan-500 hover:bg-cyan-600 text-white font-semibold" onClick={() => {
               document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
             }}>
               View Projects
@@ -73,7 +80,7 @@ export default function Hero() {
             <Button 
               size="lg" 
               variant="outline" 
-              className="rounded-full"
+              className="rounded-full border-2 border-white bg-white text-black font-semibold"
               onClick={() => {
                 document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
               }}
@@ -88,19 +95,19 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="flex items-center gap-4 mt-8"
           >
-            <a href="https://github.com/Shripad03" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="https://github.com/Shripad03" target="_blank" rel="noopener noreferrer" className="text-white hover:text-cyan-400 transition-colors">
               <Github className="w-6 h-6" />
               <span className="sr-only">GitHub</span>
             </a>
-            <a href="https://www.linkedin.com/in/shreepad-avhad/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="https://www.linkedin.com/in/shreepad-avhad/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-cyan-400 transition-colors">
               <Linkedin className="w-6 h-6" />
               <span className="sr-only">LinkedIn</span>
             </a>
-            <a href="https://www.instagram.com/that_marathi_guy/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="https://www.instagram.com/that_marathi_guy/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-cyan-400 transition-colors">
               <Instagram className="w-6 h-6" />
               <span className="sr-only">Instagram</span>
             </a>
-            <a href="mailto:shripad.avhad@gmail.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="mailto:shripad.avhad@gmail.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-cyan-400 transition-colors">
               <Mail className="w-6 h-6" />
               <span className="sr-only">Email</span>
             </a>
