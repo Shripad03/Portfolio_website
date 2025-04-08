@@ -31,13 +31,13 @@ const projects = [
   },
   {
     id: 3,
-    title: "Social Media App",
-    description: "A social networking application with real-time messaging and post sharing capabilities.",
-    image: "/placeholder.svg?height=600&width=800",
-    tags: ["React", "Firebase", "Redux", "Styled Components"],
+    title: "IoT based parking system",
+    description: "IoT based parking system using Arduino and ESP32",
+    image: "/parkease.png",
+    tags: ["Arduino", "ESP32", "Firebase", "Redux", "Styled Components"],
     category: "web",
     github: "#",
-    demo: "#",
+    demo: "https://easypark1.vercel.app/",
   },
   {
     id: 4,

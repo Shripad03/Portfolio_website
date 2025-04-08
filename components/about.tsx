@@ -74,7 +74,7 @@ export default function About() {
               </div>
             </div>
 
-            <Button variant="outline" className="gap-2 mt-4">
+            <Button variant="outline" className="gap-2 mt-4" onClick={() => window.open("/resume.pdf", "_blank")}>
               <FileText className="h-4 w-4" />
               Download Resume
             </Button>
