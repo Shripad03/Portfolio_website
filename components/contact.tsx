@@ -149,9 +149,9 @@ export default function Contact() {
                     />
                   </svg>
                 </a>
-                <a href="#" className="bg-background border rounded-full p-3 hover:border-primary transition-colors">
+                <a href="https://www.npmjs.com/~shripad1993" target="_blank" rel="noopener noreferrer" className="bg-background border rounded-full p-3 hover:border-primary transition-colors">
                   <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+                    <path d="M1.763 0C.786 0 0 .786 0 1.763v20.474C0 23.214.786 24 1.763 24h20.474c.977 0 1.763-.786 1.763-1.763V1.763C24 .786 23.214 0 22.237 0zM5.13 5.323l13.837.019-.009 13.836h-3.464l.01-10.382h-3.456L12.04 19.17H5.113z" />
                   </svg>
                 </a>
                 <a href="https://www.youtube.com/@that_marathi_guy" target="_blank" rel="noopener noreferrer" className="bg-background border rounded-full p-3 hover:border-primary transition-colors">
