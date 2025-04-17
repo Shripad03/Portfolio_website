@@ -168,8 +168,7 @@ export default function Contact() {
           </div>
           <div>
             <form action={async (formData) => {
-              const result = await sendEmail(formData);
-              return result.success ? undefined : result;
+              await sendEmail(formData);
             }} onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 gap-6">
                 <div>

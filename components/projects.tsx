@@ -133,6 +133,7 @@ export default function Projects() {
                       alt={project.title}
                       width={800}
                       height={600}
+                      style={{ height: "213px" }}
                       className="object-cover transition-transform duration-300 hover:scale-105"
                     />
                   </div>
